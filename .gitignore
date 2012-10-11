@@ -6,3 +6,6 @@
 *.ear
 /test-output
 /build.properties
+/.settings
+/.classpath
+/.project

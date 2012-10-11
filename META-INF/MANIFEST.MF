@@ -1,10 +1,13 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Set
-Bundle-SymbolicName: org.liberica.set
+Bundle-SymbolicName: org.liberica.set;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: org.liberica.set.Activator
 Require-Bundle: org.eclipse.ui,
- org.eclipse.core.runtime
+ org.eclipse.core.runtime,
+ org.eclipse.ui.console,
+ org.eclipse.jdt.ui
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Service-Component: component.xml

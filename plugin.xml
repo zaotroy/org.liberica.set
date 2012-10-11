@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="org.liberica.set.perspectives.SimulationEclipseToolsPerspective"
+            icon="icons/releng_gears.gif"
+            id="org.liberica.set.perspectives.SimulationEclipseToolsPerspective"
+            name="Simulation eclipse tools">
+      </perspective>
+   </extension>
+
+</plugin>

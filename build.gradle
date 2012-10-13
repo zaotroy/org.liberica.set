@@ -34,3 +34,8 @@ test.testLogging.showStandardStreams = true
 test {
 	useTestNG()
 }
+
+task assemble << {
+	println "Nothin to do"
+}
+

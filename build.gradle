@@ -7,7 +7,6 @@ repositories {
 }
 
 dependencies {
-	providedCompile 'org.eclipse:pde:3.2.1-v20060810-0800'
 	testCompile 'org.hamcrest:hamcrest-core:1.2.1',
 		'org.hamcrest:hamcrest-library:1.2.1'
 }

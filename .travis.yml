@@ -1,5 +1,4 @@
 language: java
+script: gradle -q test
 jdk:
   - oraclejdk7
-gradle build
-gradle test

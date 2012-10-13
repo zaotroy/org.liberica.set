@@ -7,8 +7,9 @@ repositories {
 }
 
 dependencies {
-	testCompile 'org.hamcrest:hamcrest-core:1.2.1',
-		'org.hamcrest:hamcrest-library:1.2.1'
+	providedCompile "org.eclipse.ui:ide:3.2.1-M20060915-1030"
+	testCompile "org.hamcrest:hamcrest-core:1.2.1",
+		"org.hamcrest:hamcrest-library:1.2.1"
 }
 
 sourceSets {

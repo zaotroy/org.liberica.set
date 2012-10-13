@@ -1,8 +1,9 @@
 package org.liberica.set.core;
 
-import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import static org.hamcrest.MatcherAssert.*;
+import static org.hamcrest.Matchers.*;
 
 public class MachineTest {
 
@@ -19,6 +20,6 @@ public class MachineTest {
 		// when
 		String result = machine.sayHello();
 		// then
-		Assert.assertEquals(result, "ello world");
+		assertThat(result, is("ello world"));
 	}
 }

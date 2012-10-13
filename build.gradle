@@ -2,6 +2,11 @@ repositories {
 	mavenCentral() 
 }
 
+dependencies {
+	testCompile 'org.hamcrest:hamcrest-core:1.2.1',
+		'org.hamcrest:hamcrest-library:1.2.1'
+}
+
 sourceSets {
 	main {
 		java {

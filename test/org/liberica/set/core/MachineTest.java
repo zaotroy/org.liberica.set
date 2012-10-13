@@ -19,6 +19,6 @@ public class MachineTest {
 		// when
 		String result = machine.sayHello();
 		// then
-		Assert.assertEquals(result, "Hello world");
+		Assert.assertEquals(result, "ello world");
 	}
 }

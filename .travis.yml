@@ -1,1 +1,4 @@
-script "gradle -q test"
+language: java
+script gradle -q test
+jdk:
+  - oraclejdk7

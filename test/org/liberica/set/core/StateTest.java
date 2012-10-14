@@ -16,7 +16,7 @@ public class StateTest {
 	}
 
 	@Test
-	public void testSayHelloWord() throws Exception {
+	public void whenSayHelloWordThenReturnCorrectString() throws Exception {
 		// given
 		// when
 		String result = state.sayHelloWord();

@@ -33,13 +33,9 @@ sourceSets {
 test {
 	testLogging.showStandardStreams = true
 	useTestNG()
-	//listening to test execution events
-  	beforeTest { descriptor ->
-    	logger.trace("Running test: " + descriptor)
-  	}
-  	onOutput { descriptor, event ->
-    	logger.trace("Test: " + descriptor + " produced standard out/err: " + event.message )
-  	}
+  	afterTest { desc, result -> 
+        println "Executing test ${desc.name} [${desc.className}] with result: ${result.resultType}"
+    }
 }
 
 

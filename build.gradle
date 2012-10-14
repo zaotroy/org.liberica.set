@@ -30,6 +30,8 @@ sourceSets {
 	}
 }
 
+tasks['site.jsminify'].enabled = false
+
 test {
 	testLogging.showStandardStreams = true
 	useTestNG()

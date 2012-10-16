@@ -20,6 +20,6 @@ public class MachineTest {
 		// when
 		String result = machine.sayHello();
 		// then
-		assertThat(result, is("Hello world"));
+		assertThat(result, is("ello world"));
 	}
 }
